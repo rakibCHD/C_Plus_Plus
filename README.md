@@ -1,2 +1,2 @@
 # C_Plus_Plus
-Assignment & Practice of some C++ code.
+some of my Assignment & Practice of C++ code.
