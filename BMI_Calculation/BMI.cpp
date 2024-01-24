@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 #include<string>
 #include <iomanip>
 using namespace std;
@@ -42,22 +41,22 @@ void input_output()
 
     if(final_result<18.5)
     {
-        cout<<"Your BMI is: "<<setprecision(2)<<final_result<<endl;
+        cout<<"Your BMI is: "<<setprecision(4)<<final_result<<endl;
         cout<<"Your are UnderWeighted."<<endl;
     }
     if(final_result>=18.5 & final_result<=24.9)
     {
-        cout<<"Your BMI is: "<<setprecision(3)<<final_result<<endl;
+        cout<<"Your BMI is: "<<setprecision(4)<<final_result<<endl;
         cout<<"Your are NormalWeighted."<<endl;
     }
     if(final_result>=25 & final_result<=29.9)
     {
-        cout<<"Your BMI is: "<<setprecision(2)<<final_result<<endl;
+        cout<<"Your BMI is: "<<setprecision(4)<<final_result<<endl;
         cout<<"Your are OverWeighted."<<endl;
     }
     if(final_result>=30)
     {
-        cout<<"Your BMI is: "<<setprecision(2)<<final_result<<endl;
+        cout<<"Your BMI is: "<<setprecision(4)<<final_result<<endl;
         cout<<"Your are in Obesity & it is risk to health."<<endl;
     }
 
@@ -68,6 +67,6 @@ int main()
     display();
     input_output();
 
-    getch();
+    return 0;
 }
 
