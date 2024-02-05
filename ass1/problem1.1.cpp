@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+   
 int km,petrol,kmpl,parking,tolls,Total;
 
    cout<<"\n"<<"  Problem-1: The  cost per day of driving to work:"<<"\n"<<endl;
@@ -13,7 +14,6 @@ int km,petrol,kmpl,parking,tolls,Total;
    cout<<"   Parking fees per day-"<<endl;
    cout<<"   Tolls per day-"<<endl;
 cout<<"\n";
-
    cout<<"  Enter the cost($):"<<endl;
    cout<<"              ";cin>>km;
    cout<<"              ";cin>>petrol;
