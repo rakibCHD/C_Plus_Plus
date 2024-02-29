@@ -6,7 +6,6 @@ using namespace std;
 
 #define PI 3.14159265
 
-
 void display()
 {
   cout<<"--------------Area Calculation----------------"<<endl;
