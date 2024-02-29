@@ -11,6 +11,7 @@ void calculation()
 
     time_t t = time(0);
     tm* now = localtime(&t);
+    
     int currentYear = now->tm_year + 1900;
     int currentMonth = now->tm_mon + 1;
     int currentDay = now->tm_mday;
@@ -36,16 +37,13 @@ void calculation()
         if(c=='y'||c=='Y')
             calculation();
         else
-        {
             exit(0);
-        }
     }
     else
     {
       cout << "\n Invalid birth year.Please try again." << endl;
       calculation();
     }
-
    getch();
 }
 
