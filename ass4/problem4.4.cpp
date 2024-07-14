@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     int r;
-    cout << "Input number of rows: ";
+    cout << "Input number of rows to see Star: ";
     cin >> r;
 
     for(int i = 1; i <= r; i++){
